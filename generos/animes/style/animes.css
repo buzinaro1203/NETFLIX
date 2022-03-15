@@ -166,6 +166,56 @@ div ul a:hover {
   background-color: rgba(78, 78, 78, 0.7)
 }
 
+.lista {
+  margin-left: 60px;
+}
+
+.listafilmes {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.capafilme {
+  list-style-type: none;
+  flex-basis: 10%;
+
+}
+
+.capafilmecontent {
+  margin-right: 40px;
+  margin-bottom: 60px;
+  width: 300px;
+  height: 500px;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+
+}
+
+.capafilmecontent:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .rodape {
   display: block;
   margin: 20px 385.391px 0;

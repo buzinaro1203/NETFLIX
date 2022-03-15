@@ -168,7 +168,7 @@ div ul a:hover {
 
 .genero {
 	align-items: center;
-	margin-left: 20px;
+	margin-left: 60px;
 }
 
 .text {
@@ -177,14 +177,10 @@ div ul a:hover {
 	font-size: 28px;
 }
 
-.carrosel {
-	padding-top: 10px;
-	margin-left: 20px;
-}
 
 .owl-stage-outer {
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 60px;
 }
 
 .minicapa {

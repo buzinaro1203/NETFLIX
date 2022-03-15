@@ -8,9 +8,9 @@ $(window).scroll(function () {
 });
 $('.owl-carousel').owlCarousel({
 	loop: true,
-	margin: 20,
-	nav: true,
-	center: true,
+	margin: 30,
+	nav: false,
+	center: false,
 	responsive: {
 		0: {
 			items: 2
@@ -19,7 +19,7 @@ $('.owl-carousel').owlCarousel({
 			items: 3
 		},
 		1000: {
-			items: 7
+			items: 6
 		}
 	}
 })
