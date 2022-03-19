@@ -136,7 +136,7 @@ body {
 
 /*Capa principal*/
 .capaprincipal {
-	background: linear-gradient(to left, transparent, var(--preta)150%), url(/img/capa-sao.jpg);
+	background: linear-gradient(to left, transparent, var(--preta)150%), url(../img/capa-sao.jpg);
 	height: 100%;
 	background-size: cover;
 	display: block;
