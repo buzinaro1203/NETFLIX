@@ -327,6 +327,12 @@ body {
 	padding: 0.5em;
 }
 
+.servicecode:hover {
+	color: white;
+	border: solid 1px white;
+	cursor: pointer;
+}
+
 .direitos {
 	margin-bottom: 15px;
 }
@@ -351,6 +357,7 @@ body {
 	}
 
 	.isfd {
+		margin-top: 10px;
 		justify-content: center;
 		font-size: 13px;
 	}

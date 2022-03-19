@@ -50,6 +50,7 @@ body {
 }
 
 .isfd {
+	margin-top: 10px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -147,7 +148,7 @@ div ul li a {
 
 /*Capa principal*/
 .capaprincipal {
-	background: linear-gradient(to left, transparent, var(--preta)150%), url(/generos/series/img/capaprincipal.jpg);
+	background: linear-gradient(to left, transparent, var(--preta)150%), url(../img/capaprincipal.jpg);
 	height: 100%;
 	background-size: cover;
 	display: block;
