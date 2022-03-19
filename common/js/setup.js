@@ -7,7 +7,7 @@ $(window).scroll(function () {
 	}
 });
 $('.owl-carousel').owlCarousel({
-	loop: true,
+	loop: false,
 	margin: 30,
 	nav: false,
 	center: false,
