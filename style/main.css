@@ -25,6 +25,8 @@ body {
 .menu {
 	width: 100%;
 	position: fixed;
+	display: block;
+	z-index: 2;
 	background: linear-gradient(to top, transparent, rgba(14, 14, 14, .7));
 	background-color: transparent;
 	transition: .7s
@@ -261,7 +263,6 @@ body {
 	height: 100%;
 	margin-right: 10px;
 	cursor: pointer;
-	z-index: 999;
 	display: block;
 	transition-property: all;
 	transition-duration: .2s;
