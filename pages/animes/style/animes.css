@@ -1,6 +1,6 @@
 /*pré*/
 .active {
-  color: #e5e5e5 !important;
+  color: #fff !important;
 }
 
 :root {
@@ -26,13 +26,19 @@ body {
 .menu {
   width: 100%;
   position: fixed;
+  display: block;
+  z-index: 2;
   background: linear-gradient(to top, transparent, rgba(14, 14, 14, .7));
   background-color: transparent;
   transition: .7s
 }
 
 .menu-auxiliar {
-  background-color: rgb(14, 14, 14);
+  background-color: var(--preta);
+}
+
+.homebtn {
+  text-decoration: none;
 }
 
 .logohome {
@@ -50,10 +56,6 @@ body {
   height: 40px;
 }
 
-.homebtn {
-  text-decoration: none;
-}
-
 .isfd {
   margin-top: 10px;
   width: 100%;
@@ -62,20 +64,31 @@ body {
 
 }
 
+.navarea {
+  list-style-type: none;
+  margin-left: 18px;
+}
+
 .isfatext {
   font-size: 1em;
   font-family: sans-serif;
   font-weight: bold;
 
   text-decoration: none;
-  color: #b3b3b3;
+  color: #D3D3D3;
   transition: .4s;
 }
+
+.isfatext:hover {
+  color: #fff
+}
+
 
 .isfatext:hover {
   color: #e5e5e5;
 }
 
+/*glitch animation*/
 
 .glitch {
   position: relative;

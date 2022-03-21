@@ -1,6 +1,6 @@
 /*pré*/
 .active {
-	color: #e5e5e5 !important;
+	color: #fff !important;
 }
 
 :root {
@@ -74,13 +74,15 @@ body {
 	font-weight: bold;
 
 	text-decoration: none;
-	color: #b3b3b3;
+	color: #D3D3D3;
 	transition: .4s;
 }
 
 .isfatext:hover {
-	color: #e5e5e5
+	color: #fff
 }
+
+/*glitch animation*/
 
 .glitch {
 	position: relative;
