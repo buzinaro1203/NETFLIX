@@ -1,9 +1,9 @@
 $(window).scroll(function () {
 	var scroll = $(window).scrollTop();
 	if (scroll > 1) {
-		$('.menu').addClass('menu-auxiliar');
+		$('.navbar').addClass('black');
 	} else {
-		$('.menu').removeClass('menu-auxiliar');
+		$('.navbar').removeClass('black');
 	}
 });
 $('.owl-carousel').owlCarousel({
