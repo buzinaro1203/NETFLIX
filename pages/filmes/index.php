@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/filmes.css">
 	<link rel="stylesheet" href="../../common/css/style-mobile.css">
-	<title>NETFLIX</title>
+	<title>Filmes - Spotflix</title>
 	<!--owl css-->
 	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
 	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/series.css">
 	<link rel="stylesheet" href="../../common/css/style-mobile.css">
-	<title>NETFLIX</title>
+	<title>Séries - Spotflix</title>
 	<!--owl css-->
 </head>
 
