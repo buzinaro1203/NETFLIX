@@ -111,11 +111,7 @@
 		</div>
 		<!--CAROUSEL-END-->
 		<!--FOOTER-->
-<<<<<<< HEAD
-		<?php include 'footer.php' ?>
-=======
 		<?php include './common/php/footer.php' ?>
->>>>>>> 5861da485a3f8c51892c7bcf9a38b1c8b12624ba
 		<!--FOOTER-END-->
 	</main>
 
