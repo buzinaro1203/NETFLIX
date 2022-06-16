@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/main.css">
-	<title>NETFLIX</title>
+	<title>Inicio - Spotflix</title>
 	<!--owl css-->
 	<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
 	<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
@@ -23,7 +23,7 @@
 				<div class="navbar">
 					<a href="#"><img class="spotflixlog" src="img/spotflixlog.png" alt="netflix-font" border="0"></a>
 					<ul role="list" class="nav-list">
-						<li class="nav-area"><span class="nav-text active" rel="shrink">Inicío</span></li>
+						<li class="nav-area"><span id= "Inicio - Spotflix"class="nav-text active" rel="shrink">Inicío</span></li>
 						<li class="nav-area"><a class="nav-text glitch" rel="shrink" href="pages/series/"><span
 									class="span-glitch">Séries</span><span class="span-glitch">Séries</span><span
 									class="span-glitch">Séries</span>Séries</a></li>
@@ -111,7 +111,11 @@
 		</div>
 		<!--CAROUSEL-END-->
 		<!--FOOTER-->
+<<<<<<< HEAD
 		<?php include 'footer.php' ?>
+=======
+		<?php include './common/php/footer.php' ?>
+>>>>>>> 5861da485a3f8c51892c7bcf9a38b1c8b12624ba
 		<!--FOOTER-END-->
 	</main>
 
