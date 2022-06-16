@@ -161,6 +161,7 @@ body {
 	height: 100%;
 	background-size: cover;
 	display: block;
+	background-position: center;
 }
 
 .content {
