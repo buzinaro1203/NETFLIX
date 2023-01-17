@@ -30,7 +30,7 @@
     background: linear-gradient(to bottom, transparent, var(--preta)100%);
   }
 
-  .background-wrapper {
+  .alinhamento {
     padding-top: 60px;
     margin-left: 0px;
     padding-left: 4%;
@@ -38,43 +38,43 @@
     width: 100%;
   }
 
-  .tittle-logo {
+  .saotitulo {
     width: 50%;
   }
 
-  .button1 {
+  .butao {
     font-size: 14px;
     margin-bottom: 10px;
     width: 100px;
     height: 25px;
   }
 
-  .button2 {
+  .butao2 {
     font-size: 14px;
     width: 150px;
     height: 25px;
     margin-bottom: 40px;
   }
 
-  .description {
+  .escuteagora {
     font-size: 14px;
   }
 
-  .list-layer {
+  .lista {
     margin: 0;
     padding: 4% 4% 4% 4%;
   }
 
-  .list {
+  .listafilmes {
     justify-content: space-between;
   }
 
-  .list-wrapper {
+  .capafilme {
     flex-basis: 30%;
 
   }
 
-  .movie-img {
+  .capafilmecontent {
     margin-right: 0;
     margin-bottom: 20px;
     width: 100%;
@@ -85,7 +85,7 @@
 
   }
 
-  .footter {
+  .rodape {
     margin: 20px auto 0;
   }
 
@@ -103,6 +103,10 @@
 /*S*/
 @media only screen and (max-width: 992px) and (min-width:701px) {
 
+  .logohome {
+    margin: 0;
+    padding-left: 4%;
+  }
 
   div ul li a {
     font-size: 18px;
@@ -117,7 +121,7 @@
     background: linear-gradient(to bottom, transparent, var(--preta)100%);
   }
 
-  .background-wrapper {
+  .alinhamento {
     padding-top: 60px;
     margin: 0px;
     padding: 4%;
@@ -129,24 +133,24 @@
     font-size: 16px;
   }
 
-  .button-layer {
+  .butoes {
     margin-bottom: 20px;
   }
 
-  .list-layer {
+  .lista {
     margin: 0;
     padding: 4% 4% 4% 4%;
   }
 
-  .list {
+  .listafilmes {
     justify-content: space-between;
   }
 
-  .list-wrapper {
+  .capafilme {
     flex-basis: 30%;
   }
 
-  .movie-img {
+  .capafilmecontent {
     margin-right: 0px;
     margin-bottom: 20px;
     width: 100%;
@@ -157,7 +161,7 @@
 
   }
 
-  .tittle-logo {
+  .saotitulo {
     width: 50%;
   }
 
@@ -166,7 +170,7 @@
   }
 
 
-  .footter {
+  .rodape {
     margin: 20px auto 0;
   }
 }
@@ -178,19 +182,23 @@
     margin-left: 20px;
   }
 
+  .logo {
+    font-size: 35px;
+  }
+
   .capaprincipal {
     width: 100%;
     height: 100%;
   }
 
-  .background-wrapper {
+  .alinhamento {
     padding-top: 60px;
     margin-left: 20px;
     margin-bottom: 20px;
     height: 500px;
   }
 
-  .tittle-logo {
+  .saotitulo {
     width: 60%;
     height: auto;
   }
@@ -199,26 +207,25 @@
     font-size: 20px;
   }
 
-  .button-layer {
+  .butoes {
     padding-top: 30px;
   }
 
-  .list-layer {
+  .lista {
     margin: 0;
-    padding: 0% 0 4% 4%;
+    padding: 4% 0 4% 4%;
   }
 
-  .list {
-    justify-content: flex-start;
+  .listafilmes {
+    justify-content: space-between;
   }
 
-  .list-wrapper {
+  .capafilme {
     flex-basis: 25%;
   }
 
-  .movie-img {
+  .capafilmecontent {
     margin-right: 0px;
-    padding: 0 8% 12% 0;
     margin-bottom: 20px;
     width: 100%;
     height: auto;
@@ -228,48 +235,37 @@
 
   }
 
-  .footter {
+  .rodape {
     margin: 20px auto 0;
     padding: 2%;
   }
 }
 
 @media only screen and (max-width: 1490px) and (min-width:1201px) {
-  .background-wrapper {
+  .capaprincipal {
     width: 100%;
     height: 100%;
   }
 
-  .list-layer {
-    margin: 0;
-    padding: 0% 0 4% 4%;
+  .capafilme {
+    flex-basis: 20%;
   }
 
-  .list {
-    justify-content: flex-start;
-  }
-
-  .list-wrapper {
-    flex-basis: 25%;
-  }
-
-  .movie-img {
-    margin-right: 0px;
-    padding: 0 8% 12% 0;
+  .capafilmecontent {
     margin-bottom: 20px;
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 270px;
     transition-property: all;
     transition-duration: .2s;
     transition-timing-function: ease-in;
 
   }
 
-  .background-wrapper {
+  .alinhamento {
     height: 760px;
   }
 
-  .footter {
+  .rodape {
     margin: 20px auto 0;
   }
 }
